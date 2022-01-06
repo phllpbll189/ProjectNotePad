@@ -1,0 +1,68 @@
+.TopBar {
+    background: black;
+    width: 100%;
+    height: 10%;
+    padding: px;
+    display: inline-flex;
+    filter: drop-shadow(0px 5px 2px rgba(0, 0, 0, 0.25));
+}
+
+.TopTitle {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Arial Bold'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    top: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.SvgBackground {
+    display: flex;
+    background: none;
+    border: none;
+    margin: 8px;
+    height: 35px;
+    width: 35px;
+    background-image: url(images/MenuButton.svg);
+    background-size: contain;
+    cursor: pointer;
+}
+
+.table {
+    display: block;
+}
+
+.search {
+  margin-left: 15%;
+  width: 40%;
+  height: 43px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.EditButton {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+    align-items: center;
+    color: white;
+
+    margin-left: 40px;
+    padding: 0px 10px 0px 10px;
+    border-left: 2px grey;
+
+    cursor:default;
+    padding-left: 10px;
+}
+
+.EditButton:hover {
+    background-color:  rgb(51, 51, 51);
+}
